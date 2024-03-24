@@ -211,7 +211,16 @@ footer{
     flex-wrap: wrap;
   }
   .head-container{
-    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .head-items{
+    margin-top: 10px;
+  }
+  .head-items li a {
+    margin-right: 0;
+    margin-bottom: 5px;
+
   }
 }
 
