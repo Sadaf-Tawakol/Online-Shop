@@ -92,8 +92,9 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-left: 120px;
-  padding-right: 130px;
+  padding-left: 10%;
+  padding-right: 11%;
+  width: 80%;
   
 }
 .img-container {
@@ -217,6 +218,11 @@ footer{
 @media (max-width:768px){
   .flex-container{
     flex-wrap: wrap;
+   
+  }
+  .img-container {
+    max-width: 100%;
+    min-width: 50%;
   }
   .head-container{
     flex-direction: column;
