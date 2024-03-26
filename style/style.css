@@ -3,6 +3,9 @@ body{
   padding: 0;
   background-color:white;
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 * {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,6 +36,7 @@ li:hover{
   align-items: center;
   margin: 0;
   background-color: rgb(246, 247, 242);
+  width: 100vmax;
   
 }
 .head-items{
